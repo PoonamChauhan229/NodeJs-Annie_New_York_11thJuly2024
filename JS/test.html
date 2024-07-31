@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for(let i=0;i<=6;i++){
+            console.log("******")
+        }
+
+        let str=""
+        for(let i=0;i<5;i++){
+            for(let j=0;j<5;j++){
+                str=str+"*"
+            }
+            str=str+"\n"
+        }
+        console.log(str)
+
+        let str1=""
+        for(let i=1;i<=5;i++){// rows 
+            for(let j=1;j<=i;j++){
+                str1=str1+"*"
+            }
+            str1=str1+"\n"// to newline without break
+
+        }
+        console.log(str1)
+
+        for(var i=1;i<=5;i++){
+            console.log(i)
+        }
+
+        let str3=""
+        for(var i=1;i<=5;i++){
+           str3=str3+i+"\n"
+        }
+        console.log(str3)
+
+      
+
+
+    </script>
+</body>
+</html>
