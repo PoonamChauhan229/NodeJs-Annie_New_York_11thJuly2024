@@ -1,0 +1,15 @@
+
+
+//adjs
+// setTimeout()
+// setInterval()
+// callback
+// promises
+// fetch
+// async await
+
+// come this week mon-thur   >> fri-sat-sun
+
+// monday onwards
+// nodejs
+// >>>>>>>>>>>>>

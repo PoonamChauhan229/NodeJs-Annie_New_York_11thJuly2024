@@ -198,7 +198,7 @@ let arr71= [1, 30, 69, 29, 10, 13];
 let everyMethod=arr71.every((element)=>element>40)
 console.log(everyMethod)
 
-//some   >> boolean > true | false
+//some   >> boolean > true | false || atleast 1 condition 
 let someMethod=arr71.some((element)=>element<40)
 console.log(someMethod)
 

@@ -57,3 +57,60 @@ console.log(val)
 let word="References1"
 let val1=str6.includes(word)?`The given word is present - ${word}`:`The given word is not present-${word}`
 console.log(val1)
+
+//concat()
+let str7="Hello"
+let str8="World"
+console.log(str7+" "+str8)
+console.log(str7,str8)
+console.log(`${str7} ${str8}`)
+console.log("Concat")
+console.log(str7.concat(" ",str8," The given word is present","abcde"))
+
+//endswith()  >> boolean values
+let str9="W3Schools maintains a complete JavaScript reference"
+console.log(str9.endsWith("reference"))
+
+//startsWith()
+console.log(str9.startsWith("W3Schools"))
+
+//replace()
+let str10="JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions.JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions.JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions."
+console.log("Replace")
+console.log(str10.replace("JavaScript","Welcome"))
+
+//replaceAll()
+
+console.log(str10.replaceAll("JavaScript","Welcome"))
+console.log("global")
+console.log(str10.replace(/JavaScript/g,"Welcome"))
+console.log("gi")
+console.log(str10.replace(/javascript/gi,"Welcome"))  // this one 
+
+//at()
+//charAt()
+let str11="JavaScript (JS) is a lightweight interpreted"
+console.log("at")
+console.log(str11.at(11))// index numbers 
+console.log(str11.at(-2))
+console.log("Charat")
+console.log(str11.charAt(11))// doesnt negative number >> ""
+console.log(str11.charAt(-1))
+console.log(str11.charAt(-2))
+
+//substring()
+//slice()
+console.log(str11.substring(0,3))// doesnt take negative
+console.log(str11.slice(0,3))
+
+// indexOf() // index no of string where it is lying >> indexnum || -1
+console.log(str11.indexOf("Is"))
+
+// repeat()
+let str="Terminal"
+console.log(`We execute code in our Vs code ${str.repeat(3)}`)
+console.log(str.repeat(5))
+console.log(str.repeat(2.5))
+
+
+//
