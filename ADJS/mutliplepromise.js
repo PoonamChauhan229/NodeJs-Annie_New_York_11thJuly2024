@@ -29,3 +29,9 @@ p3.then((res)=>console.log(res)).catch((err)=>console.log(err))
 Promise.all([p1,p2,p3]).then((res)=>console.log(res)).catch((err)=>console.log(err))
 // true >> u get all val
 // false >> u get the err 
+
+
+// https://restcountries.com/v3.1/all
+
+// https://restcountries.com  >> Server 
+// /v3.1/all                  >> Endpoint
