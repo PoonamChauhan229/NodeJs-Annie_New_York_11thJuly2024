@@ -15,11 +15,11 @@ console.log(req)// promise >> fulfilled >> data >>Readaable stream >> .json() >>
 // response
 req.then((data)=>data.json())
 .then((res)=>{
-        //console.log(res) >> 250 array
-        for(let i=0;i<res.length;i++){
-            // console.log(res[i])// indival response  >> 
-            console.log(`Area is ${res[i].area} and Region is ${res[i].region}`)
-        }
+        console.log(res) //>> 250 array
+        // for(let i=0;i<res.length;i++){
+        //     // console.log(res[i])// indival response  >> 
+        //     console.log(`Area is ${res[i].area} and Region is ${res[i].region}`)
+        // }
 
         // map method >> show the same data
         // foreeach loop >>
@@ -45,3 +45,14 @@ var jsonObj={
     "name":"abcd",
     "age":210
 }
+
+// async await
+
+// crud >> HTTP METHODS  >> 
+
+// CREATE >> POST
+// READ   >> GET
+// UPDATE >> PUT
+// DELETE >> DELETE 
+
+// NODE JS   >> API CRUD APIS 

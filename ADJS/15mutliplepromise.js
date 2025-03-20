@@ -21,9 +21,12 @@ const p3=new Promise((resolve,reject)=>{
         reject("Timer3 failed")
     }
 })
-p1.then((res)=>console.log(res)).catch((err)=>console.log(err))
-p2.then((res)=>console.log(res)).catch((err)=>console.log(err))
-p3.then((res)=>console.log(res)).catch((err)=>console.log(err))
+
+// p1.then((res)=>console.log(res)).catch((err)=>console.log(err))
+// p2.then((res)=>console.log(res)).catch((err)=>console.log(err))
+// p3.then((res)=>console.log(res)).catch((err)=>console.log(err))
+
+
 
 // promise.all >> array
 Promise.all([p1,p2,p3]).then((res)=>console.log(res)).catch((err)=>console.log(err))
@@ -35,3 +38,9 @@ Promise.all([p1,p2,p3]).then((res)=>console.log(res)).catch((err)=>console.log(e
 
 // https://restcountries.com  >> Server 
 // /v3.1/all                  >> Endpoint
+
+// 7 min
+// 10 min
+// 15 min
+
+// 15 min >> []
